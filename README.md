@@ -1,4 +1,4 @@
-# aq-proto2
+# aq-research
 All scripts used to calibrate and analyze preliminary low-cost air quality sensor data. 
 
 Most analysis done with Proto2; Proto2 was deployed at Queens from May 2021 to May 2022, recording CO, NO, NO2, O3, pm25, temperature, and RH data 
