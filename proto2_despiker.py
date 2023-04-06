@@ -34,7 +34,7 @@ variables_to_despike = ['pm25_std_ugm3']
 
 
 #Static variables here
-thresholdHigh = 100 #Enter threshold for high here
+thresholdHigh = 200 #Enter threshold for high here
 thresholdLow = 0 #Enter low threshold here
 nstds = 1 #Enter deviance from std -- a default value of 1 equals 100% of std
 #columnToAnalyze = 'pm25_env_ugm3' #Enter variable to analyze
@@ -92,7 +92,7 @@ plt.legend()
     
     
     
-despiked_dat = dataPostSpiked.to_csv('/Volumes/data-polar/home/ehojeily/proto2_data/despiked_proto2_ext.csv')
+#despiked_dat = dataPostSpiked.to_csv('/Volumes/data-polar/home/ehojeily/proto2_data/despiked_proto2_ext.csv')
     
     
     
